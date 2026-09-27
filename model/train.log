@@ -1,0 +1,156 @@
+2026-09-27 18:25:19 | INFO | device=cuda | args={'data_dir': PosixPath('data'), 'out_dir': PosixPath('model/runs'), 'epochs': 5, 'batch_size': 128, 'lr': 0.001, 'weight_decay': 0.0001, 'label_smoothing': 0.1, 'val_frac': 0.1, 'patience': 5, 'input_size': 28, 'num_workers': 4, 'seed': 42, 'no_pretrained': False, 'amp': False, 'resume': None}
+2026-09-27 18:25:19 | INFO | Split sizes -> train=54000 val=6000 test=10000
+2026-09-27 18:25:45 | INFO | epoch 1 step  100/421 loss=1.0953 lr=1.00e-03
+2026-09-27 18:25:48 | INFO | epoch 1 step  200/421 loss=0.9900 lr=1.00e-03
+2026-09-27 18:25:50 | INFO | epoch 1 step  300/421 loss=0.8076 lr=1.00e-03
+2026-09-27 18:25:53 | INFO | epoch 1 step  400/421 loss=0.7587 lr=1.00e-03
+2026-09-27 18:25:53 | INFO | epoch 1 step  421/421 loss=0.8048 lr=1.00e-03
+2026-09-27 18:25:55 | INFO | [epoch 1] train_loss=0.9658 train_acc=0.8011 | val_loss=1.1321 val_acc=0.7072 | 34.4s
+2026-09-27 18:25:55 | INFO |   ↳ saved new best (val_loss=1.1321)
+2026-09-27 18:25:58 | INFO | epoch 2 step  100/421 loss=0.7267 lr=9.05e-04
+2026-09-27 18:26:00 | INFO | epoch 2 step  200/421 loss=0.7883 lr=9.05e-04
+2026-09-27 18:26:03 | INFO | epoch 2 step  300/421 loss=0.7507 lr=9.05e-04
+2026-09-27 18:26:05 | INFO | epoch 2 step  400/421 loss=0.7440 lr=9.05e-04
+2026-09-27 18:26:06 | INFO | epoch 2 step  421/421 loss=0.7241 lr=9.05e-04
+2026-09-27 18:26:06 | INFO | [epoch 2] train_loss=0.7822 train_acc=0.8734 | val_loss=0.8050 val_acc=0.8563 | 11.1s
+2026-09-27 18:26:06 | INFO |   ↳ saved new best (val_loss=0.8050)
+2026-09-27 18:26:09 | INFO | epoch 3 step  100/421 loss=0.7332 lr=6.55e-04
+2026-09-27 18:26:12 | INFO | epoch 3 step  200/421 loss=0.7351 lr=6.55e-04
+2026-09-27 18:26:14 | INFO | epoch 3 step  300/421 loss=0.7472 lr=6.55e-04
+2026-09-27 18:26:17 | INFO | epoch 3 step  400/421 loss=0.7339 lr=6.55e-04
+2026-09-27 18:26:18 | INFO | epoch 3 step  421/421 loss=0.6671 lr=6.55e-04
+2026-09-27 18:26:18 | INFO | [epoch 3] train_loss=0.7344 train_acc=0.8948 | val_loss=0.7602 val_acc=0.8797 | 11.0s
+2026-09-27 18:26:18 | INFO |   ↳ saved new best (val_loss=0.7602)
+2026-09-27 18:26:21 | INFO | epoch 4 step  100/421 loss=0.7029 lr=3.45e-04
+2026-09-27 18:26:23 | INFO | epoch 4 step  200/421 loss=0.6527 lr=3.45e-04
+2026-09-27 18:26:26 | INFO | epoch 4 step  300/421 loss=0.7575 lr=3.45e-04
+2026-09-27 18:26:29 | INFO | epoch 4 step  400/421 loss=0.6864 lr=3.45e-04
+2026-09-27 18:26:29 | INFO | epoch 4 step  421/421 loss=0.7259 lr=3.45e-04
+2026-09-27 18:26:30 | INFO | [epoch 4] train_loss=0.6980 train_acc=0.9106 | val_loss=0.7298 val_acc=0.8918 | 11.3s
+2026-09-27 18:26:30 | INFO |   ↳ saved new best (val_loss=0.7298)
+2026-09-27 18:26:33 | INFO | epoch 5 step  100/421 loss=0.6922 lr=9.55e-05
+2026-09-27 18:26:35 | INFO | epoch 5 step  200/421 loss=0.7010 lr=9.55e-05
+2026-09-27 18:26:38 | INFO | epoch 5 step  300/421 loss=0.6219 lr=9.55e-05
+2026-09-27 18:26:40 | INFO | epoch 5 step  400/421 loss=0.7254 lr=9.55e-05
+2026-09-27 18:26:41 | INFO | epoch 5 step  421/421 loss=0.6290 lr=9.55e-05
+2026-09-27 18:26:41 | INFO | [epoch 5] train_loss=0.6692 train_acc=0.9244 | val_loss=0.7149 val_acc=0.8975 | 11.2s
+2026-09-27 18:26:41 | INFO |   ↳ saved new best (val_loss=0.7149)
+2026-09-27 18:26:43 | INFO | TEST | loss=0.7291 acc=0.8956
+2026-09-27 18:26:43 | INFO | Artifacts written to /Proj_1/model/runs
+2026-09-27 18:28:08 | INFO | device=cuda | args={'data_dir': PosixPath('data'), 'out_dir': PosixPath('model/runs'), 'epochs': 5, 'batch_size': 128, 'lr': 0.001, 'weight_decay': 0.0001, 'label_smoothing': 0.1, 'val_frac': 0.1, 'patience': 5, 'input_size': 96, 'num_workers': 4, 'seed': 42, 'no_pretrained': False, 'amp': False, 'resume': None}
+2026-09-27 18:28:08 | INFO | Split sizes -> train=54000 val=6000 test=10000
+2026-09-27 18:28:36 | INFO | epoch 1 step  100/421 loss=0.7177 lr=1.00e-03
+2026-09-27 18:28:42 | INFO | epoch 1 step  200/421 loss=0.7677 lr=1.00e-03
+2026-09-27 18:28:47 | INFO | epoch 1 step  300/421 loss=0.6733 lr=1.00e-03
+2026-09-27 18:28:52 | INFO | epoch 1 step  400/421 loss=0.7078 lr=1.00e-03
+2026-09-27 18:28:54 | INFO | epoch 1 step  421/421 loss=0.7288 lr=1.00e-03
+2026-09-27 18:28:55 | INFO | [epoch 1] train_loss=0.7552 train_acc=0.8934 | val_loss=0.9523 val_acc=0.7918 | 45.2s
+2026-09-27 18:28:55 | INFO |   ↳ saved new best (val_loss=0.9523)
+2026-09-27 18:29:01 | INFO | epoch 2 step  100/421 loss=0.6558 lr=9.05e-04
+2026-09-27 18:29:06 | INFO | epoch 2 step  200/421 loss=0.6509 lr=9.05e-04
+2026-09-27 18:29:12 | INFO | epoch 2 step  300/421 loss=0.6957 lr=9.05e-04
+2026-09-27 18:29:17 | INFO | epoch 2 step  400/421 loss=0.6156 lr=9.05e-04
+2026-09-27 18:29:18 | INFO | epoch 2 step  421/421 loss=0.6049 lr=9.05e-04
+2026-09-27 18:29:19 | INFO | [epoch 2] train_loss=0.6552 train_acc=0.9336 | val_loss=0.6787 val_acc=0.9193 | 22.6s
+2026-09-27 18:29:19 | INFO |   ↳ saved new best (val_loss=0.6787)
+2026-09-27 18:29:24 | INFO | epoch 3 step  100/421 loss=0.6014 lr=6.55e-04
+2026-09-27 18:29:30 | INFO | epoch 3 step  200/421 loss=0.6297 lr=6.55e-04
+2026-09-27 18:29:35 | INFO | epoch 3 step  300/421 loss=0.5943 lr=6.55e-04
+2026-09-27 18:29:40 | INFO | epoch 3 step  400/421 loss=0.5825 lr=6.55e-04
+2026-09-27 18:29:41 | INFO | epoch 3 step  421/421 loss=0.5975 lr=6.55e-04
+2026-09-27 18:29:42 | INFO | [epoch 3] train_loss=0.6172 train_acc=0.9508 | val_loss=0.6692 val_acc=0.9267 | 22.6s
+2026-09-27 18:29:42 | INFO |   ↳ saved new best (val_loss=0.6692)
+2026-09-27 18:29:48 | INFO | epoch 4 step  100/421 loss=0.5490 lr=3.45e-04
+2026-09-27 18:29:53 | INFO | epoch 4 step  200/421 loss=0.5759 lr=3.45e-04
+2026-09-27 18:29:58 | INFO | epoch 4 step  300/421 loss=0.5663 lr=3.45e-04
+2026-09-27 18:30:04 | INFO | epoch 4 step  400/421 loss=0.5587 lr=3.45e-04
+2026-09-27 18:30:05 | INFO | epoch 4 step  421/421 loss=0.6443 lr=3.45e-04
+2026-09-27 18:30:05 | INFO | [epoch 4] train_loss=0.5830 train_acc=0.9662 | val_loss=0.6330 val_acc=0.9413 | 22.6s
+2026-09-27 18:30:05 | INFO |   ↳ saved new best (val_loss=0.6330)
+2026-09-27 18:30:11 | INFO | epoch 5 step  100/421 loss=0.5771 lr=9.55e-05
+2026-09-27 18:30:16 | INFO | epoch 5 step  200/421 loss=0.5629 lr=9.55e-05
+2026-09-27 18:30:22 | INFO | epoch 5 step  300/421 loss=0.5276 lr=9.55e-05
+2026-09-27 18:30:27 | INFO | epoch 5 step  400/421 loss=0.5305 lr=9.55e-05
+2026-09-27 18:30:28 | INFO | epoch 5 step  421/421 loss=0.5720 lr=9.55e-05
+2026-09-27 18:30:29 | INFO | [epoch 5] train_loss=0.5546 train_acc=0.9801 | val_loss=0.6230 val_acc=0.9477 | 22.6s
+2026-09-27 18:30:29 | INFO |   ↳ saved new best (val_loss=0.6230)
+2026-09-27 18:30:30 | INFO | TEST | loss=0.6386 acc=0.9408
+2026-09-27 18:30:30 | INFO | Artifacts written to /Proj_1/model/runs
+2026-09-27 18:31:19 | INFO | device=cuda | args={'data_dir': PosixPath('data'), 'out_dir': PosixPath('model/runs'), 'epochs': 5, 'batch_size': 128, 'lr': 0.001, 'weight_decay': 0.0001, 'label_smoothing': 0.1, 'val_frac': 0.1, 'patience': 5, 'input_size': 112, 'num_workers': 4, 'seed': 42, 'no_pretrained': False, 'amp': False, 'resume': None}
+2026-09-27 18:31:19 | INFO | Split sizes -> train=54000 val=6000 test=10000
+2026-09-27 18:31:50 | INFO | epoch 1 step  100/421 loss=0.7158 lr=1.00e-03
+2026-09-27 18:31:58 | INFO | epoch 1 step  200/421 loss=0.7760 lr=1.00e-03
+2026-09-27 18:32:06 | INFO | epoch 1 step  300/421 loss=0.6789 lr=1.00e-03
+2026-09-27 18:32:13 | INFO | epoch 1 step  400/421 loss=0.6468 lr=1.00e-03
+2026-09-27 18:32:15 | INFO | epoch 1 step  421/421 loss=0.6569 lr=1.00e-03
+2026-09-27 18:32:17 | INFO | [epoch 1] train_loss=0.7413 train_acc=0.8981 | val_loss=0.7761 val_acc=0.8773 | 55.5s
+2026-09-27 18:32:17 | INFO |   ↳ saved new best (val_loss=0.7761)
+2026-09-27 18:32:25 | INFO | epoch 2 step  100/421 loss=0.6446 lr=9.05e-04
+2026-09-27 18:32:33 | INFO | epoch 2 step  200/421 loss=0.6360 lr=9.05e-04
+2026-09-27 18:32:41 | INFO | epoch 2 step  300/421 loss=0.6628 lr=9.05e-04
+2026-09-27 18:32:49 | INFO | epoch 2 step  400/421 loss=0.5788 lr=9.05e-04
+2026-09-27 18:32:50 | INFO | epoch 2 step  421/421 loss=0.5878 lr=9.05e-04
+2026-09-27 18:32:51 | INFO | [epoch 2] train_loss=0.6455 train_acc=0.9385 | val_loss=0.7242 val_acc=0.9053 | 33.1s
+2026-09-27 18:32:51 | INFO |   ↳ saved new best (val_loss=0.7242)
+2026-09-27 18:32:59 | INFO | epoch 3 step  100/421 loss=0.6035 lr=6.55e-04
+2026-09-27 18:33:07 | INFO | epoch 3 step  200/421 loss=0.6359 lr=6.55e-04
+2026-09-27 18:33:15 | INFO | epoch 3 step  300/421 loss=0.5806 lr=6.55e-04
+2026-09-27 18:33:23 | INFO | epoch 3 step  400/421 loss=0.6064 lr=6.55e-04
+2026-09-27 18:33:24 | INFO | epoch 3 step  421/421 loss=0.5788 lr=6.55e-04
+2026-09-27 18:33:25 | INFO | [epoch 3] train_loss=0.6098 train_acc=0.9546 | val_loss=0.6538 val_acc=0.9335 | 33.1s
+2026-09-27 18:33:25 | INFO |   ↳ saved new best (val_loss=0.6538)
+2026-09-27 18:33:33 | INFO | epoch 4 step  100/421 loss=0.5552 lr=3.45e-04
+2026-09-27 18:33:41 | INFO | epoch 4 step  200/421 loss=0.5593 lr=3.45e-04
+2026-09-27 18:33:49 | INFO | epoch 4 step  300/421 loss=0.5748 lr=3.45e-04
+2026-09-27 18:33:57 | INFO | epoch 4 step  400/421 loss=0.5564 lr=3.45e-04
+2026-09-27 18:33:59 | INFO | epoch 4 step  421/421 loss=0.6184 lr=3.45e-04
+2026-09-27 18:33:59 | INFO | [epoch 4] train_loss=0.5754 train_acc=0.9695 | val_loss=0.6230 val_acc=0.9465 | 33.1s
+2026-09-27 18:33:59 | INFO |   ↳ saved new best (val_loss=0.6230)
+2026-09-27 18:34:07 | INFO | epoch 5 step  100/421 loss=0.5508 lr=9.55e-05
+2026-09-27 18:34:15 | INFO | epoch 5 step  200/421 loss=0.5731 lr=9.55e-05
+2026-09-27 18:34:23 | INFO | epoch 5 step  300/421 loss=0.5379 lr=9.55e-05
+2026-09-27 18:34:31 | INFO | epoch 5 step  400/421 loss=0.5257 lr=9.55e-05
+2026-09-27 18:34:33 | INFO | epoch 5 step  421/421 loss=0.5354 lr=9.55e-05
+2026-09-27 18:34:33 | INFO | [epoch 5] train_loss=0.5495 train_acc=0.9824 | val_loss=0.6182 val_acc=0.9505 | 33.1s
+2026-09-27 18:34:33 | INFO |   ↳ saved new best (val_loss=0.6182)
+2026-09-27 18:34:35 | INFO | TEST | loss=0.6272 acc=0.9467
+2026-09-27 18:34:35 | INFO | Artifacts written to /Proj_1/model/runs
+2026-09-27 18:36:33 | INFO | device=cuda | args={'data_dir': PosixPath('data'), 'out_dir': PosixPath('model/runs'), 'epochs': 5, 'batch_size': 128, 'lr': 0.001, 'weight_decay': 0.0001, 'label_smoothing': 0.1, 'val_frac': 0.1, 'patience': 5, 'input_size': 96, 'num_workers': 4, 'seed': 42, 'no_pretrained': False, 'amp': True, 'resume': None}
+2026-09-27 18:36:33 | INFO | Split sizes -> train=54000 val=6000 test=10000
+2026-09-27 18:37:16 | INFO | epoch 1 step  100/421 loss=0.7316 lr=1.00e-03
+2026-09-27 18:37:20 | INFO | epoch 1 step  200/421 loss=0.7943 lr=1.00e-03
+2026-09-27 18:37:24 | INFO | epoch 1 step  300/421 loss=0.6644 lr=1.00e-03
+2026-09-27 18:37:28 | INFO | epoch 1 step  400/421 loss=0.6858 lr=1.00e-03
+2026-09-27 18:37:29 | INFO | epoch 1 step  421/421 loss=0.7020 lr=1.00e-03
+2026-09-27 18:37:30 | INFO | [epoch 1] train_loss=0.7670 train_acc=0.8874 | val_loss=0.7310 val_acc=0.9035 | 56.0s
+2026-09-27 18:37:30 | INFO |   ↳ saved new best (val_loss=0.7310)
+2026-09-27 18:37:34 | INFO | epoch 2 step  100/421 loss=0.6442 lr=9.05e-04
+2026-09-27 18:37:38 | INFO | epoch 2 step  200/421 loss=0.6335 lr=9.05e-04
+2026-09-27 18:37:43 | INFO | epoch 2 step  300/421 loss=0.7167 lr=9.05e-04
+2026-09-27 18:37:47 | INFO | epoch 2 step  400/421 loss=0.6255 lr=9.05e-04
+2026-09-27 18:37:47 | INFO | epoch 2 step  421/421 loss=0.5947 lr=9.05e-04
+2026-09-27 18:37:48 | INFO | [epoch 2] train_loss=0.6546 train_acc=0.9335 | val_loss=0.6788 val_acc=0.9190 | 17.3s
+2026-09-27 18:37:48 | INFO |   ↳ saved new best (val_loss=0.6788)
+2026-09-27 18:37:52 | INFO | epoch 3 step  100/421 loss=0.6077 lr=6.55e-04
+2026-09-27 18:37:57 | INFO | epoch 3 step  200/421 loss=0.6278 lr=6.55e-04
+2026-09-27 18:38:01 | INFO | epoch 3 step  300/421 loss=0.5808 lr=6.55e-04
+2026-09-27 18:38:05 | INFO | epoch 3 step  400/421 loss=0.6085 lr=6.55e-04
+2026-09-27 18:38:06 | INFO | epoch 3 step  421/421 loss=0.5656 lr=6.55e-04
+2026-09-27 18:38:06 | INFO | [epoch 3] train_loss=0.6167 train_acc=0.9508 | val_loss=0.6544 val_acc=0.9310 | 17.3s
+2026-09-27 18:38:06 | INFO |   ↳ saved new best (val_loss=0.6544)
+2026-09-27 18:38:10 | INFO | epoch 4 step  100/421 loss=0.5773 lr=3.45e-04
+2026-09-27 18:38:15 | INFO | epoch 4 step  200/421 loss=0.5993 lr=3.45e-04
+2026-09-27 18:38:19 | INFO | epoch 4 step  300/421 loss=0.6050 lr=3.45e-04
+2026-09-27 18:38:23 | INFO | epoch 4 step  400/421 loss=0.5584 lr=3.45e-04
+2026-09-27 18:38:24 | INFO | epoch 4 step  421/421 loss=0.6567 lr=3.45e-04
+2026-09-27 18:38:24 | INFO | [epoch 4] train_loss=0.5832 train_acc=0.9662 | val_loss=0.6321 val_acc=0.9400 | 17.3s
+2026-09-27 18:38:24 | INFO |   ↳ saved new best (val_loss=0.6321)
+2026-09-27 18:38:29 | INFO | epoch 5 step  100/421 loss=0.5681 lr=9.55e-05
+2026-09-27 18:38:33 | INFO | epoch 5 step  200/421 loss=0.5754 lr=9.55e-05
+2026-09-27 18:38:37 | INFO | epoch 5 step  300/421 loss=0.5351 lr=9.55e-05
+2026-09-27 18:38:41 | INFO | epoch 5 step  400/421 loss=0.5253 lr=9.55e-05
+2026-09-27 18:38:42 | INFO | epoch 5 step  421/421 loss=0.5582 lr=9.55e-05
+2026-09-27 18:38:42 | INFO | [epoch 5] train_loss=0.5559 train_acc=0.9794 | val_loss=0.6244 val_acc=0.9452 | 17.2s
+2026-09-27 18:38:42 | INFO |   ↳ saved new best (val_loss=0.6244)
+2026-09-27 18:38:44 | INFO | TEST | loss=0.6360 acc=0.9433
+2026-09-27 18:38:44 | INFO | Artifacts written to /Proj_1/model/runs

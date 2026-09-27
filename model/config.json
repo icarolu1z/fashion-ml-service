@@ -1,0 +1,32 @@
+{
+  "data_dir": "data",
+  "out_dir": "model/runs",
+  "epochs": 5,
+  "batch_size": 128,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.1,
+  "val_frac": 0.1,
+  "patience": 5,
+  "input_size": 96,
+  "num_workers": 4,
+  "seed": 42,
+  "no_pretrained": false,
+  "amp": true,
+  "resume": null,
+  "best_val_loss": 0.6244376713434855,
+  "test_loss": 0.6360052558898925,
+  "test_acc": 0.9433,
+  "classes": [
+    "T-shirt/top",
+    "Trouser",
+    "Pullover",
+    "Dress",
+    "Coat",
+    "Sandal",
+    "Shirt",
+    "Sneaker",
+    "Bag",
+    "Ankle boot"
+  ]
+}
